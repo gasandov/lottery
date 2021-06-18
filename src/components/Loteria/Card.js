@@ -15,7 +15,7 @@ function Card({ row, col, image, cardClicked }) {
     <CardItem>
       <CardImage
         alt={image}
-        src={`https://rawcdn.githack.com/gasandov/Bingo/bcea71c228bedc66505d454c3dff07ef5dc36a02/assets/${image}.jpeg`}
+        src={`https://rawcdn.githack.com/gasandov/lottery/ab9820966044ba4017170dff09c792929072f2e8/assets/${image}.jpeg`}
         onClick={() => handleCardClicked(row, col)}
         clicked={isCenter ? true : clicked}
       />

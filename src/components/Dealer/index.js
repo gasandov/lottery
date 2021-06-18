@@ -39,7 +39,7 @@ function Dealer() {
         alt={nextCard}
         src={
           nextCard
-            ? `https://rawcdn.githack.com/gasandov/Bingo/bcea71c228bedc66505d454c3dff07ef5dc36a02/assets/${nextCard}.jpeg`
+            ? `https://rawcdn.githack.com/gasandov/lottery/ab9820966044ba4017170dff09c792929072f2e8/assets/${nextCard}.jpeg`
             : noContentImage
         }
       />
